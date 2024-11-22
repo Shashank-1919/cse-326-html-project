@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Ur Rap®</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 2em;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .services-section {
+            background: linear-gradient(45deg, #d2b48c, #8b4513);
+            color: #fff;
+            padding: 3em 0;
+            text-align: center;
+        }
+        .services-section h2 {
+            margin-top: 0;
+            font-size: 2.5em;
+        }
+        .service {
+            margin: 1.5em 0;
+            padding: 1em;
+            border: 1px solid #fff;
+            border-radius: 8px;
+            background-color: rgb(13, 11, 12);
+        }
+        .service h3 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+        .service p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #222;
+            color: #ccc;
+            text-align: center;
+            padding: 1em 0;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Ur Rap®</h1>
+    </header>
+
+    <!-- Services Section -->
+    <section class="services-section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Exclusive Music Releases</h3>
+                <p>Get access to exclusive tracks from your favorite artists, available only on Ur Rap®.</p>
+            </div>
+            <div class="service">
+                <h3>Artist Collaborations</h3>
+                <p>We facilitate collaborations between artists to create unique music experiences.</p>
+            </div>
+            <div class="service">
+                <h3>Live Events & Promotions</h3>
+                <p>Stay updated on upcoming events, concerts, and promotions happening in the rap community.</p>
+            </div>
+            <div class="service">
+                <h3>Personalized Playlists</h3>
+                <p>Enjoy custom playlists tailored to your musical tastes, featuring both emerging and established artists.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> Ur Rap®. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // JavaScript to set the current year in the footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>

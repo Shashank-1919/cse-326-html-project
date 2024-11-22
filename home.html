@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ur Rap® - Home</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: linear-gradient(45deg, #e1deda, #f26805);
+
+
+        }
+        header, footer {
+            background-color: #222;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        header h1, footer p {
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 1em;
+        }
+        .hero {
+            background: url('bg.jpg') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .section {
+            padding: 2em 0;
+        }
+        .section h3 {
+            text-align: center;
+            margin-bottom: 1em;
+        }
+        .footer {
+            font-size: 0.9em;
+            color: #ccc;
+        }
+        .features, .artists {
+            display: flex;
+            justify-content: space-around;
+            gap: 1em;
+        }
+        .feature-item, .artist-item {
+            flex: 1;
+            padding: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Ur Rap®</h1>
+        <p>Your Destination for Real Rap and Hip-Hop</p>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h2>Welcome to Ur Rap®</h2>
+    </div>
+
+    <!-- Features Section -->
+    <section class="section features">
+        <div class="container">
+            <h3>What We Offer</h3>
+            <div class="features">
+                <div class="feature-item">
+                    <h4>Exclusive Tracks</h4>
+                    <p>Discover new and exclusive rap tracks from upcoming and established artists.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Artist Collaboration</h4>
+                    <p>We connect artists to collaborate, grow, and expand their reach.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Event Promotion</h4>
+                    <p>Stay updated on live events, concerts, and rap battles near you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Artists Section -->
+    <section class="section artists">
+        <div class="container">
+            <h3>Featured Artists</h3>
+            <div class="artists">
+                <div class="artist-item">
+                    <h4>Yo Yo Honey Singh</h4>
+                    <p>Genre: Hip-Hop</p>
+                </div>
+                <div class="artist-item">
+                    <h4>Raftaar</h4>
+                    <p>Genre: Rap</p>
+                </div>
+                <div class="artist-item">
+                    <h4>Karma</h4>
+                    <p>Genre: Trap</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> Ur Rap®. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // JavaScript to set the current year in the footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>

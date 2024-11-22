@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+    color: #FFFFFF;
+}
+
+.login-container {
+    background-color: #1e1e1e;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    color: #ff4757;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: #a4a4a4;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 0.9rem;
+    color: #a4a4a4;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #FFFFFF;
+}
+
+button {
+    margin-top: 1.5rem;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4757;
+    color: #FFFFFF;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e43e50;
+}
+
+input:focus, button:focus {
+    outline: none;
+    border: 1px solid #ff4757;
+}
+
+.links {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.links a {
+    color: #ff4757;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}

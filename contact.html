@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Ur Rap®</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 2em;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .contact-section {
+            background: linear-gradient(45deg, #d2b48c, #8b4513);
+            color: #fff;
+            padding: 3em 0;
+            text-align: center;
+        }
+        .contact-section h2 {
+            margin-top: 0;
+            font-size: 2.5em;
+        }
+        .contact-info {
+            margin: 2em 0;
+            font-size: 1.2em;
+        }
+        .contact-info a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .contact-info a:hover {
+            color: #ffcc00; /* Highlight color on hover */
+        }
+        footer {
+            background-color: #222;
+            color: #ccc;
+            text-align: center;
+            padding: 1em 0;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Ur Rap®</h1>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p>If you have any questions or inquiries, feel free to reach out:</p>
+                <p>
+                    <strong>Email:</strong> 
+                    <a href="mailto:shashankpandit1919@gmail.com">shashankpandit1919@gmail.com</a>
+                </p>
+                <p>
+                    <strong>LinkedIn:</strong> 
+                    <a href="https://www.linkedin.com/in/shashank-mishra-66b6ab335" target="_blank">Shashank Mishra</a>
+                </p>
+                <p>
+                    <strong>GitHub:</strong> 
+                    <a href="https://github.com/shashank-1919" target="_blank">Shashank-1919</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> Ur Rap®. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // JavaScript to set the current year in the footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
